@@ -4,7 +4,7 @@ Para fazer esse sistema usei Java como linguagem principal e um banco de dados (
 
 ![Demonstração](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzJybm15ODZyNWgwY3Nzb3J6eWhtd213bzVjMHB6MWFhcHk5OG96OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YkgF7GYXZdzj8uNnjR/giphy.gif)
 
-**Cadastrar um usuário**
+**Cadastrar um usuário**  
 Para fazer um cadastro é necessário as seguintes informações:
 1º CPF;
 2º Nome;
@@ -14,7 +14,7 @@ Para fazer um cadastro é necessário as seguintes informações:
 
 ---
 
-**Fazer Login**
+**Fazer Login**  
 Para logar é preciso:
 1º CPF;
 2º E-mail;
@@ -22,12 +22,12 @@ Para logar é preciso:
 
 ---
 
-**Fazer buscas**
+**Fazer buscas**  
 Para buscar algum usuário no sistema é preciso do CPF.  
 
 ---
 
-**Processo de Criação**
+**Processo de Criação**  
 Usei Java como linguagem principal junto com o PostgreSQL para armazenar as informações, assim que o projeto é executado, é criado uma conexão com o banco de dados onde faz uma leitura de todas as colunas da tabela e manda as informações dos usuários para uma HashMap, achei melhor enviar tudo para uma HashMap para evitar ficar criando várias conexões a cada função que for executada, dessa forma eu usei o CPF como chave primária, já que só existe um único CPF por usuário, então eu faço a pesquisa pelo CPF dentro da HashMap e retorno os valores que eu preciso tanto para Login quanto para Pesquisas.  
 
 
