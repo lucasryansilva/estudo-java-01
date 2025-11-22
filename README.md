@@ -10,7 +10,7 @@ Para fazer um cadastro é necessário as seguintes informações:
 2º Nome;
 3º Data de Nascimento;
 4º E-mail;
-5º Senha.
+5º Senha.  
 
 ---
 
@@ -18,17 +18,17 @@ Para fazer um cadastro é necessário as seguintes informações:
 Para logar é preciso:
 1º CPF;
 2º E-mail;
-3º Senha.
+3º Senha.  
 
 ---
 
 **Fazer buscas**
-Para buscar algum usuário no sistema é preciso do CPF.
+Para buscar algum usuário no sistema é preciso do CPF.  
 
 ---
 
 **Processo de Criação**
-Usei Java como linguagem principal junto com o PostgreSQL para armazenar as informações, assim que o projeto é executado, é criado uma conexão com o banco de dados onde faz uma leitura de todas as colunas da tabela e manda as informações dos usuários para uma HashMap, achei melhor enviar tudo para uma HashMap para evitar ficar criando várias conexões a cada função que for executada, dessa forma eu usei o CPF como chave primária, já que só existe um único CPF por usuário, então eu faço a pesquisa pelo CPF dentro da HashMap e retorno os valores que eu preciso tanto para Login quanto para Pesquisas.
+Usei Java como linguagem principal junto com o PostgreSQL para armazenar as informações, assim que o projeto é executado, é criado uma conexão com o banco de dados onde faz uma leitura de todas as colunas da tabela e manda as informações dos usuários para uma HashMap, achei melhor enviar tudo para uma HashMap para evitar ficar criando várias conexões a cada função que for executada, dessa forma eu usei o CPF como chave primária, já que só existe um único CPF por usuário, então eu faço a pesquisa pelo CPF dentro da HashMap e retorno os valores que eu preciso tanto para Login quanto para Pesquisas.  
 
 
 
